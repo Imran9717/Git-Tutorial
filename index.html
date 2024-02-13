@@ -1,12 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Git: Vedio 2</title>
+    <style>
+        .command-table,
+        th,
+        td {
+            border: 1px solid white;
+            border-collapse: collapse;
+            text-align: center;
+            width: 800px;
+            color: black;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <center>
+        <h1>GIT TUTORIAL</h1>
+    </center>
+    <table align="center" class="command-table">
+        <tr style="background-color:orange">
+            <th>S.no</th>
+            <th>Type</th>
+            <th>Command</th>
+            <th>Use</th>
+        </tr>
+        <tr style="background-color:orange">
+            <td rowspan="2">1</td>
+            <td rowspan="2">Config</td>
+            <td>git config --global user.name "username"</td>
+            <td rowspan="2">This command is use for setting the user configuration.</td>
+        </tr>
+        <tr style="background-color:orange">
+            <td>git config --global user.email "userEmail"</td>
+        </tr>
+        <tr style="background-color:skyblue">
+            <td>2</td>
+            <td>Initialize</td>
+            <td>git init</td>
+            <td>It is used for initializing or creating git repository.</td>
+        </tr>
+        <tr style="background-color:grey">
+            <td rowspan="2">3</td>
+            <td rowspan="2">Add</td>
+            <td>git add filename</td>
+            <td>This command is used for adding single file to the git repository.</td>
+        </tr>
+        <tr style="background-color:grey">
+            <td>git add .</td>
+            <td>It is used for adding all file to the git repository.</td>
+        </tr>
+        <tr style="background-color:steelblue">
+            <td>4</td>
+            <td>commit</td>
+            <td>git commit -m "message"</td>
+            <td>This command is used for saving the changes of file with message.</td>
+        </tr>
+        <tr style="background-color: #c1e6fe">
+            <td rowspan="2">5</td>
+            <td rowspan="2">File status</td>
+            <td>git status</td>
+            <td>This command is shows all files status.</td>
+        </tr>
+        <tr style="background-color: #c1e6fe">
+            <td>git status -s</td>
+            <td>It help to see files status without extra detials.</td>
+        </tr>
+        <tr style="background-color:   #b3b6b7 ">
+            <td>6</td>
+            <td>Commit Detail</td>
+            <td>git log</td>
+            <td>Use to show all commit details.</td>
+        </tr>
+    </table>
+
 </body>
+
 </html>
